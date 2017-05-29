@@ -1,0 +1,95 @@
+.generic-content-container {
+
+&--call {
+  color: white;
+
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+    margin-top: 0.35rem;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 0.79rem;
+    margin-top: 0.6em;
+    margin-bottom: 1.05em;
+  }
+  button {
+    background-color: white;
+    width: 254px;
+    height: 43px;
+    border-radius: 7px;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+    margin-top: 3.9em;
+    font-weight: 700;
+    color: black;
+  }
+
+}
+  
+&--t-margin {
+  margin-top: 0em;
+  position: relative;
+  display: block;
+}
+
+&--left-align {
+  text-align: left;
+}
+
+&--narrow {
+  max-width: auto;
+
+  @mixin atMedium {
+    max-width: 250px;
+  }
+}
+
+&--center-align {
+  text-align: center;
+
+  @mixin atMedium {
+    text-align: left;
+  }
+}
+
+  p {
+    font-weight: 300;
+    line-height: 1.65;
+    margin: 0 0 1.8rem 0;
+
+    @mixin atSmall {
+      font-size: 0.9rem;
+    }
+  }
+
+  p strong {
+    font-weight: 700;
+  }
+
+}
+
+.bigger-icon {
+  width: 140px;
+  margin: 0 auto 0px auto;
+  position: relative;
+}
+
+.smaller-icon {
+  width: 80px;
+  overflow: hidden;
+  margin: 0 auto 0px auto;
+  position: relative;    
+}
+
+.bottom_page_image{
+  width: 138px;
+  display: block;
+  margin: 8px auto 10px auto;
+  position: relative;   
+}

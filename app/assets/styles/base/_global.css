@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  min-width: 330px;
+}
+
+img {
+  width: 100%;
+}
+
+.small_image {
+	width: 50px;
+	margin: 10px auto 22px auto;
+	position: relative;
+	display: block;
+}
+
+
+strong {
+	font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $mainOrange;
+}

@@ -1,0 +1,100 @@
+.page-section {
+  padding: 2.3rem 0;
+  
+
+
+  &--grey {
+    background-color: grey;
+  }
+
+
+
+  &--slim {
+    max-height: 230px;
+    margin-top: 2.3rem;
+
+    @mixin atMedium {
+      max-height: 150px;
+    }
+  }
+
+  @mixin atMedium {
+    padding: 2.2rem 0;
+  }
+
+  &--no-padding {
+    padding: 0;
+  }
+
+  &--no-t-padding {
+    padding-top: 0;
+    margin: 0 inherit 20px inherit;
+  }
+
+  &--narrow {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  &--no-b-padding-until-medium {
+    padding-bottom: 0;
+
+    @mixin atMedium {
+      padding-bottom: 4.5rem;
+    }
+  }
+
+  &--no-b-padding-until-large {
+    padding-bottom: 0;
+
+    @mixin atLarge {
+      padding-bottom: 4.5rem;
+    }
+  }
+
+  &--blue {
+    background-color: $mainBlue;
+    color: #FFF;
+  }
+
+&--call {
+  padding-top: 0.5em;
+}
+
+  &--testimonials {
+    background-color: #f1f1f1;
+    text-align: center;
+    font-style: italic;
+
+    h3{
+      font-weight: 400;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      padding-top: 0;
+      margin-top: 0.18rem;
+      line-height: 1.3rem;
+    }
+
+    h4 {
+      margin-top: 0em;
+      font-size: 0.8rem;
+      color: #64c870;
+      letter-spacing: 0.4px;
+    }
+
+    @mixin atLarge {
+      text-align: left;
+      
+    }
+  }
+  &--green {
+    background-color: #64c870;
+  }
+
+}
+
+#pravnici img {
+  width: 235px;
+  padding-top: 30px;
+}
